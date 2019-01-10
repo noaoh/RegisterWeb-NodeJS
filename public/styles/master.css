@@ -1,0 +1,67 @@
+div.header {
+	padding-top: 1px;
+	text-align: right;
+}
+
+div.main {
+	padding-top: 0px;
+	text-align: center
+}
+
+h1.primary-message {
+	font-size: 30px;
+	text-align: center;
+}
+
+h3.header-message {
+	font-size: 15px;
+}
+
+h4.error-message {
+	color: red
+}
+
+div.hidden,
+span.hidden,
+input.hidden {
+	display: none
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+button.action,
+a.button {
+    margin: 0;
+    border: 0;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-user-select: none;
+    color: #000000;
+    border: solid;
+    padding: 10px;
+    background-color: #FFFFFF;
+    cursor: default;
+	text-decoration: none;
+}
+
+button.action:hover,
+a.button:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #000000;
+}
