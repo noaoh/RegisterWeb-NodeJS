@@ -16,7 +16,7 @@
     "typescript",
     "sequelize"
   ],
-  "author": "rxp01@uark.edu",
+  "author": "noahholt@uark.edu",
   "license": "MIT",
   "scripts": {
     "rebuild": "npm run clean && npm run build",
